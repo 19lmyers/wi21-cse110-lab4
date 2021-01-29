@@ -24,26 +24,41 @@
 
 13. A. `student.name`
 	B. `student['Grad Year']`
+	
 	C. `student.greeting()`
+	
 	D. `student['Favorite Teacher'].name`
+	
 	E. `student.courseLoad[0]`
 
 14.
 	A. `'32'` - JS sees 3 as a string and applies string concatenation
+	
 	B. `1` - JS sees subtraction and casts 3 to its integer value
+	
 	C. `3` - null is cast to 0, so nothing happens
+	
 	D. `'3null'` - null is cast to the string 'null' and concatenated
+	
 	E. `4` -  true is cast to its integer value (1) and added
+	
 	F. `0` - both false and null are cast to their integer values
+	
 	G. `'3undefined'` - undefined is cast to the string 'undefined' and concatenated
+	
 	H. `NaN` - 3 is cast to its integer value and undefined is subtracted from it, resulting in NaN
 
 15.
 	A. `true` - 2 is cast to its integer value, which is greater than 1
+	
 	B. `false` - String comparison is done on each value letter-by-letter.
+	
 	C. `true` - '2' is converted to a number, which is the same as 2.
+	
 	D. `false` - The === operator requires both operands to result in the same type, so this is false.
+	
 	E. `false` - true is converted to 1, which != 2.
+	
 	F. `true` - 2 is manually cast to a boolean (true), which == true.
 
 16. The === operator requires both operands to be of the same type, whereas the == operator converts them both to integers.
